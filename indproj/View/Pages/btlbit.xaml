@@ -1,0 +1,86 @@
+﻿<Page x:Class="indproj.View.Pages.btlbit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:indproj.View.Pages"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="btlbit">
+
+    <Grid Background="White">
+
+        <materialDesign:Card>
+            <TabControl
+    HorizontalContentAlignment="Center"
+    materialDesign:ColorZoneAssist.Mode="PrimaryLight"
+    materialDesign:NavigationRailAssist.SelectionCornerRadius="50"
+    materialDesign:NavigationRailAssist.ShowSelectionBackground="True"
+    Style="{StaticResource MaterialDesignNavigationRailTabControl}"
+    TabStripPlacement="Bottom">
+                <TabItem
+                    
+      Margin="4">
+                    <TabItem.Header>
+
+                        <StackPanel
+                            
+          Width="auto"
+          Height="auto">
+                            <materialDesign:PackIcon
+            Width="24"
+            Height="24" Foreground="#5e35b1"
+            HorizontalAlignment="Center"
+            Kind="AccountCircle" />
+                            <TextBlock Foreground="#5e35b1"
+            HorizontalAlignment="Center"
+            Text="Profilе" Cursor="" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid Background="White">
+                        <Image Source="/Images/fon.png" Name="Rec1" Canvas.Left="-249" Canvas.Top="-115" HorizontalAlignment="Center" Height="592" VerticalAlignment="Top" Width="1044" Margin="0,-131,0,0"/>
+
+                        <Image Source="\Images\bitya.png" HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Margin="0,20,0,0" />
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" Margin="0,170,0,0" ><Run Language="en-gb" Text="BattleBitya"/></TextBlock>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,222,0,0" ><Run Text="Date of registration: "/><Run Language="en-gb" Text="23"/><Run Text="/"/><Run Language="en-gb" Text="01"/><Run Text="/202"/><Run Language="en-gb" Text="1"/></TextBlock>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,247,0,0" Width="164" ><Run Text="Last online: "/><Run Language="en-gb" Text="6 month ago"/></TextBlock>
+                    </Grid>
+                </TabItem>
+                <TabItem Width="88">
+                    <TabItem.Header>
+                        <StackPanel
+          Width="86"
+          Height="auto">
+                            <materialDesign:PackIcon
+            Width="24"
+            Height="24" Foreground="#5e35b1"
+            HorizontalAlignment="Center"
+            Kind="TextAccount" />
+                            <TextBlock
+            HorizontalAlignment="Center"
+            Text="Descriprion" Foreground="#5e35b1" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid Background="White">
+                        <Image Source="/Images/fon.png" Name="Rec2" Canvas.Left="-249" Canvas.Top="-115" HorizontalAlignment="Center" Height="592" VerticalAlignment="Top" Width="1044" Margin="0,-131,0,0"/>
+                        <TextBlock Text="About me:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="25" Margin="10,10,0,0" />
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,65,0,0" Height="286" Width="780" ><Run Language="en-gb" Text="Playing Battle Bit very well"/><Run Text=" and i Just wakin' up in the morning, gotta thank God I don't know, but today seems kinda odd No"/><LineBreak/><Run Text=" barking from the dog, no smog And Momma cooked a breakfast with no hog I got my grub on, but didn't pig out"/><LineBreak/><Run Text=" Finally got a call from a girl I wanna dig out Hooked it up for later as I hit the door Thinkin', Will I live another twenty"/><LineBreak/><Run Text="-four I gotta go 'cause I got me a drop-top And if I hit the switch, I can make the ass drop Had to stop at a red light"/><LineBreak/><Run Text=" Lookin' in my mirror and not a jacker in sight And everything is alright I got a beep from Kim, and she can fuck all "/><LineBreak/><Run Text="night Called up the homies and I'm askin' y'all Which park are yall playin basketball Get me on the court and I'm trouble Last week, fucked around and got a triple double Freakin' niggas every way, like MJ I can't believe today was a"/><LineBreak/><Run Text=" good day"/><Run Text="."/><LineBreak/><Run/></TextBlock>
+                        <Rectangle Fill="#5e35b1" Margin="49,170,49,139" Height="1"/>
+                        <TextBlock Text="Additionally " FontSize="25" Margin="10,236,644,98"/>
+                        <TextBlock Text="Country:        Zimbabwe " FontSize="15" Margin="10,272,628,55"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </materialDesign:Card>
+        <Button Background="#5e35b1"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="750,10,10,400" Click="Button_Click">
+            <materialDesign:PackIcon Foreground="White"
+    Kind="ArrowUpRightBold" />
+
+        </Button>
+        <Rectangle Fill="#5e35b1" Margin="0,368,0,81" Width="800" Height="1"/>
+    </Grid>
+</Page>

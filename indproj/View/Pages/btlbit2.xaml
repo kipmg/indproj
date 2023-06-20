@@ -1,0 +1,57 @@
+﻿<Page x:Class="indproj.View.Pages.btlbit2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:indproj.View.Pages"
+ xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="800"
+      Title="btlbit2">
+
+    <Grid Background="Black" Margin="10,0,-10,0">
+       
+        <StackPanel Margin="32,32,-32,-32">
+            <Image
+      Source="\Images\maxresdefault.jpg" />
+        </StackPanel>
+        <Rectangle Fill="Black" Height="100" Width="800" Margin="0,400,0,0" />
+
+        <StackPanel Margin="740,373,10,77">
+            <ToggleButton
+                Foreground="White"
+                Background="#5e35b1"
+  Content="{materialDesign:PackIcon Kind=Heart, Size=21}"
+  IsChecked="True"
+  
+  Style="{StaticResource MaterialDesignFlatPrimaryToggleButton}"
+   />
+
+        </StackPanel>
+        <StackPanel Margin="740,318,10,132">
+            <Button
+                Background="Transparent"
+                
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+   Click="Button_Click">
+                <materialDesign:PackIcon
+                    Foreground="White"
+    
+    Kind="ArrowLeftTopBold" />
+            </Button>
+        </StackPanel>
+        <StackPanel Margin="640,10,10,446">
+            <materialDesign:Chip
+                Foreground="White"
+                Background="#5e35b1"
+  Content="BattleBitya" Click="Chip_Click">
+                <materialDesign:Chip.Icon>
+
+                    <Image
+      Source="\Images\bitya.png" />
+                </materialDesign:Chip.Icon>
+            </materialDesign:Chip>
+        </StackPanel>
+    </Grid>
+</Page>
