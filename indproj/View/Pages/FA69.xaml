@@ -42,7 +42,7 @@
                         <Image Source="/Images/fon.png" Name="Rec1" Canvas.Left="-249" Canvas.Top="-115" HorizontalAlignment="Center" Height="592" VerticalAlignment="Top" Width="1044" Margin="0,-131,0,0"/>
 
                         <Image Source="\Images\dawground.png" HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Margin="0,20,0,0" />
-                        <TextBlock Text="FunnyAnimal69" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" Margin="0,170,0,0" />
+                        <TextBlock Text="FunnyAnimal69" Style="{StaticResource TxtFont}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" Margin="0,170,0,0" />
                         <TextBlock Text="Date of registration: 22/12/2022" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,222,0,0" />
                         <TextBlock Text="Last online: yesterday" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,247,0,0" />
                     </Grid>

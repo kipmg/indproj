@@ -43,7 +43,7 @@
                         <Image Source="/Images/fon.png" Name="Rec1" Canvas.Left="-249" Canvas.Top="-115" HorizontalAlignment="Center" Height="592" VerticalAlignment="Top" Width="1044" Margin="0,-131,0,0"/>
                         <Ellipse Fill="DarkGray" Width="150" Height="150" Margin="325,20,325,200" />
                         <Image Source="C:\Users\Пользователь\source\repos\indproj\indproj\Images\imprb.png" HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Margin="0,20,0,0" />
-                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" Margin="0,170,0,0" ><Run Language="en-gb" Text="Impression"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+                        <TextBlock HorizontalAlignment="Center" Style="{StaticResource TxtFont}" VerticalAlignment="Top" FontSize="35" Margin="0,170,0,0" ><Run Language="en-gb" Text="Impression" /><LineBreak/><Run Language="en-gb"/></TextBlock>
                         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,222,0,0" ><Run Text="Date of registration: "/><Run Language="en-gb" Text="12"/><Run Text="/"/><Run Language="en-gb" Text="08"/><Run Text="/202"/><Run Language="en-gb" Text="0"/></TextBlock>
                         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,247,0,0" ><Run Text="Last online: "/><Run Language="en-gb" Text="Online"/></TextBlock>
                         <Ellipse Height="20" Width="20" Margin="429,150,351,200" Fill="LightGreen"/>

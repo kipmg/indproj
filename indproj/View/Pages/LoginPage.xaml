@@ -43,14 +43,14 @@
         <StackPanel Height="40" Margin="348,433,348,27">
             <Button Content="Sign Up" Width="100" Height="40" Click="Button_Click" Background="Transparent" Foreground="Black" BorderBrush="Transparent"/>
         </StackPanel>
-        <StackPanel Height="40" Margin="350,219,350,241">
-            <TextBlock Text="Log In"  FontSize="35" Style="{StaticResource TxtFont}"/>
+        <StackPanel Height="40" Margin="359,218,359,242">
+            <TextBlock Text="Log In"  FontSize="30" />
         </StackPanel >
         <StackPanel Width="150" Height="150" Margin="325,19,325,331">
             <Ellipse Fill="#5e35b1" Width="150" Height="150" />
         </StackPanel>
-        <StackPanel Margin="330,169,330,292">
-            <TextBlock  FontSize="30" Style="{StaticResource TxtFont}" Width="116" Text="MaxVids"/>
+        <StackPanel Margin="330,158,330,292">
+            <TextBlock  FontSize="35" Style="{StaticResource TxtFont}" Width="104" Text="MaxVids" Height="50"/>
         </StackPanel>
         <StackPanel Margin="319,35,319,347">
             <Image Source="\Images\LOGO1.png" Height="117" Width="161"/>

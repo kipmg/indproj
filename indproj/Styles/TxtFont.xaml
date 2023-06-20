@@ -2,6 +2,6 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     >
     <Style TargetType="TextBlock" x:Key="TxtFont">
-        <Setter Property="TextElement.FontFamily" Value="/Fonts/#BLKCHCRY"/>
+        <Setter Property="TextElement.FontFamily" Value="/Fonts/#Bayon Regular"/>
     </Style>
 </ResourceDictionary>

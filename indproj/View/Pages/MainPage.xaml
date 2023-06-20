@@ -109,8 +109,8 @@
                                 <Image Source="\Images\HSC.png" Height="100" Width="200" />
 
                             </StackPanel>
-                            <StackPanel Height="30" Margin="30,128,494,342">
-                                <TextBlock Text="Horizontally spinning capybara" FontSize="15" Style= "{StaticResource TxtFont}" />
+                            <StackPanel Height="30" Margin="30,128,471,342">
+                                <TextBlock Text="Horizontally spinning capybara" FontSize="15" Style= "{StaticResource TxtFont}" Width="205" />
                             </StackPanel>
 
                             <StackPanel Margin="20,10,485,342">
@@ -130,7 +130,7 @@
                                 <Image Source="\Images\dawg3.png" Height="100" Width="200" />
 
                             </StackPanel>
-                            <StackPanel Height="30" Margin="262,130,262,340">
+                            <StackPanel Height="30" Margin="262,130,232,340">
                                 <TextBlock Text="WHAT IS BLUD DOIN???!!!" FontSize="15" Style= "{StaticResource TxtFont}" Width="172" />
                             </StackPanel>
                             <StackPanel Margin="252,10,252,342">
@@ -151,7 +151,7 @@
                                 <Image Source="\Images\impr1.png" Height="100" Width="200" />
 
                             </StackPanel>
-                            <StackPanel Height="30" Margin="496,130,28,340">
+                            <StackPanel Height="30" Margin="496,130,10,340">
                                 <TextBlock Text="Impression drift ep.2 (FUJI)" FontSize="15" Style= "{StaticResource TxtFont}" Width="176" />
                             </StackPanel>
                             <StackPanel Margin="486,10,18,342">
@@ -171,7 +171,7 @@
                                     <Image Source="\Images\DAWG2.png" Height="100" Width="200" />
 
                                 </StackPanel>
-                                <StackPanel Height="30" Margin="496,130,28,340">
+                                <StackPanel Height="30" Margin="496,130,0,340">
                                     <TextBlock Text="BRO IS EXERCISING!!!" FontSize="15" Style= "{StaticResource TxtFont}" Width="142" />
                                 </StackPanel>
                                 <StackPanel Margin="486,10,18,342">
@@ -192,7 +192,7 @@
                                     <Image Source="\Images\dawg.png" Height="100" Width="200" />
 
                                 </StackPanel>
-                                <StackPanel Height="30" Margin="496,130,28,340">
+                                <StackPanel Height="30" Margin="496,130,-10,340">
                                     <TextBlock Text="BROS NOT READING NEWS" FontSize="15" Style= "{StaticResource TxtFont}" Width="183" />
                                 </StackPanel>
                                 <StackPanel Margin="486,10,18,342">
@@ -213,7 +213,7 @@
                                     <Image Source="\Images\Yo1.png" Height="100" Width="200" />
 
                                 </StackPanel>
-                                <StackPanel Height="30" Margin="496,130,28,340">
+                                <StackPanel Height="30" Margin="496,130,-10,340">
                                     <TextBlock Text="HES LITERALLY ON SIGHT!!" FontSize="15" Style= "{StaticResource TxtFont}" Width="178" />
                                 </StackPanel>
                                 <StackPanel Margin="486,10,18,342">
@@ -235,7 +235,7 @@
                                     <Image Source="\Images\impr2.png" Height="100" Width="200" />
 
                                 </StackPanel>
-                                <StackPanel Height="30" Margin="496,130,28,340">
+                                <StackPanel Height="30" Margin="496,130,10,340">
                                     <TextBlock Text="Impression drift ep.1 (FIRE)" FontSize="15" Style= "{StaticResource TxtFont}" Width="178" />
                                 </StackPanel>
                                 <StackPanel Margin="486,10,18,342">
@@ -277,7 +277,7 @@
                                     <Image Source="\Images\btlbit1.png" Height="100" Width="200" />
 
                                 </StackPanel>
-                                <StackPanel Height="30" Margin="496,130,28,340">
+                                <StackPanel Height="30" Margin="496,130,0,340">
                                     <TextBlock Text="BTR82 goes POM POM" FontSize="15" Style= "{StaticResource TxtFont}" Width="153" />
                                 </StackPanel>
                                 <StackPanel Margin="486,10,18,342">
@@ -446,7 +446,7 @@
 
 
                                             <Image Source="\Images\cat.png" HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Margin="0,20,0,0" />
-                                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" Margin="0,170,0,0" Height="47" ><Run Language="en-gb" Text="kip"/><LineBreak/><Run Language="en-gb"/><LineBreak/><Run Language="en-gb"/><LineBreak/><Run Language="en-gb"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+                                            <TextBlock HorizontalAlignment="Center" Style="{StaticResource TxtFont}" VerticalAlignment="Top" FontSize="35" Margin="0,170,0,0" Height="47" ><Run Language="en-gb" Text="kip"/><LineBreak/><Run Language="en-gb"/><LineBreak/><Run Language="en-gb"/><LineBreak/><Run Language="en-gb"/><LineBreak/><Run Language="en-gb"/></TextBlock>
                                             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,222,0,0" ><Run Text="Date of registration: "/><Run Language="en-gb" Text="1"/><Run Text="2/"/><Run Language="en-gb" Text="05"/><Run Text="/202"/><Run Language="en-gb" Text="3"/></TextBlock>
                                             <Ellipse Height="20" Width="20" Margin="392,150,316,250" Fill="LightGreen"/>
                                             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,247,0,0" ><Run Text="Last online: "/><Run Language="en-gb" Text="online"/></TextBlock>
